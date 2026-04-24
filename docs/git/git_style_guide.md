@@ -6,8 +6,8 @@ This document outlines the conventions and best practices for using Git within A
 
 ### Repositories
 
-All repositories should be named using **CamelCase**. This means each word starts with a capital letter and words are joined without spaces.
-*   **Example:** `AquaPowerDevGuide`, `FlightControlSystem`, `GroundStationTelemetry`
+All repositories should be named using **kebab-case**. This means all words are lowercase and separated by hyphens.
+*   **Example:** `aquapower-dev-guide`, `flight-control-system`, `ground-station-telemetry`
 
 ### Branching
 
