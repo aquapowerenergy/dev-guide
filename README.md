@@ -1,4 +1,4 @@
-# AquaPower Development Guide
+# VentoPower Development Guide
 
 Welcome to the AquaPower Development Guide! This repository serves as the central hub for all development best practices, style guides, and workflows across our projects.
 
