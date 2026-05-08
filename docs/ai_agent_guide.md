@@ -15,8 +15,9 @@ AI agents **MUST** strictly follow all relevant style guides:
     *   **Commit Messages:** Use imperative mood, present tense, and include appropriate types/emojis. Ensure the first line is under 72 characters.
     *   **Versioning:** Understand and apply Semantic Versioning for any proposed version bumps or tags.
 *   **[C++ Style Guide](cpp/cpp_style_guide.md):**
-    *   **Naming Conventions:** Apply CamelCase for types/functions, snake_case for local variables, `m_` for member variables, `k` for constants, and UPPER_SNAKE_CASE for macros.
-    *   **Formatting:** Use 2-space indentation, correct brace placement, 80-character line limit, and pointer/reference formatting.
+    *   **Naming Conventions:** Apply PascalCase for types and functions; snake_case for local variables, parameters, and struct members; `trailing_underscore_` for class member variables; `kCamelCase` for `constexpr`/`const` constants; `kCamelCase` for enumerators; and `UPPER_SNAKE_CASE` for macros. **Do not** use `m_` or `g_` prefixes.
+    *   **Formatting:** Use 2-space indentation, correct brace placement, 80-character line limit, and pointer/reference formatting (asterisk/ampersand attached to the type).
+    *   **Header Guards:** Use the `<PROJECT>_<PATH>_<FILE>_H_` format for all `#define` guards.
     *   **Linting:** Understand `cpplint` rules and ensure generated code passes `cpplint` checks.
 *   **[Web (TypeScript) Style Guide](web/typescript_style_guide.md):**
     *   **Naming Conventions:** Apply PascalCase for types, camelCase for variables/functions, kebab-case for filenames, and UPPER_SNAKE_CASE for module-level constants.
